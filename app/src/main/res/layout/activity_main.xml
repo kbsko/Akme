@@ -29,7 +29,7 @@
         android:layout_marginTop="10dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:text="Что такое акмеология?"
         android:id="@+id/button"
@@ -37,7 +37,8 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:onClick="onArticles" />
+        android:onClick="onArticles"
+        android:textColor="#ffffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -51,6 +52,7 @@
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
         android:layout_marginTop="10dp"
-        android:onClick="onTest" />
+        android:onClick="onTest"
+        android:textColor="#ffffffff" />
 
 </RelativeLayout>
