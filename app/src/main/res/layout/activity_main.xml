@@ -25,7 +25,8 @@
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:textColor="#ff000000"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:layout_marginTop="10dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +36,7 @@
         android:background="@drawable/buttonselector"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:onClick="onArticles" />
 
     <Button
@@ -49,18 +50,7 @@
         android:layout_alignEnd="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:onClick="onTest" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Наши услуги"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_alignRight="@+id/button2"
-        android:background="@drawable/buttonselector"
-        android:layout_alignEnd="@+id/button2"
-        android:layout_marginTop="10dp" />
 </RelativeLayout>

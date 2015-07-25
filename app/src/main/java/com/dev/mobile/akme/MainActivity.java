@@ -25,5 +25,10 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void onTest(View v) {
+        Intent intent = new Intent(this, PreTestActivity.class);
+        startActivity(intent);
+    }
+
 
 }
