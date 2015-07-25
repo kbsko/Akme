@@ -35,7 +35,8 @@
         android:background="@drawable/buttonselector"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:onClick="onArticles" />
 
     <Button
         android:layout_width="wrap_content"
